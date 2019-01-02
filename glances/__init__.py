@@ -46,7 +46,7 @@ from glances.globals import WINDOWS
 
 # Check locale
 try:
-    locale.setlocale(locale.LC_ALL, '')
+    locale.setlocale(locale.LC_ALL, 'en')
 except locale.Error:
     print("Warning: Unable to set locale. Expect encoding problems.")
 
